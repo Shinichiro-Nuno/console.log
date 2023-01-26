@@ -1,13 +1,9 @@
-const hoge = "hy";
+// for(i = 0; i < 10; i++) {
+//   console.log(i);
+// }
 
-switch(hoge) {
-  case "hello":
-    console.log("こんにちは");
-    break;
-  case "good morning":
-    console.log("おはよう");
-    break;
-  default:
-    console.log("やあ");
-    break;
+let x = 0;
+while(x < 10) {
+  console.log(x);
+  ++x;
 }
