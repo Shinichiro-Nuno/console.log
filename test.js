@@ -1,13 +1,7 @@
-const x = ["orange", "apple", "banana"]
-console.log(x);
-console.log(x[2]);
+let hogehoge
+  console.log(hogehoge);
 
-const poti = {
-  age: 2,
-  weight: "10キロ",
-  type: "dog"
-}
+hogehoge = null;
+  console.log(hogehoge);
 
-console.log(poti);
-console.log(poti.age);
-console.log(poti.weight);
+  console.log(+'hoge');
