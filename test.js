@@ -1,8 +1,13 @@
-console.log(3 === 2);
-console.log(3 == "3");
-console.log(3 !== 2);
-console.log(3 < 2);
-console.log(3 > 2);
-console.log(4 <= 4);
-console.log(3 >= 4);
-console.log(4 >= 4);
+const hoge = "hy";
+
+switch(hoge) {
+  case "hello":
+    console.log("こんにちは");
+    break;
+  case "good morning":
+    console.log("おはよう");
+    break;
+  default:
+    console.log("やあ");
+    break;
+}
