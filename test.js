@@ -1,10 +1,10 @@
 let test = 0;
-++test;
-++test;
-
+test += 1;
+test -= 1;
 console.log(test);
 
-let test2 = 11;
---test2;
+let test2 = 2;
+test2 *= 3;
+test2 /= 2;
 
 console.log(test2);
