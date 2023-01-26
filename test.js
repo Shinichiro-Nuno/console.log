@@ -1,9 +1,8 @@
-let hoge = 1;
-
-if(hoge === 2) {
-  console.log("piyo");
-} else if(hoge > 2) {
-  console.log("piyopiyo");
-} else {
-  console.log("huga");
-}
+console.log(3 === 2);
+console.log(3 == "3");
+console.log(3 !== 2);
+console.log(3 < 2);
+console.log(3 > 2);
+console.log(4 <= 4);
+console.log(3 >= 4);
+console.log(4 >= 4);
