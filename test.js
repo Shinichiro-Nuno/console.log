@@ -1,10 +1,9 @@
-let test = 0;
-test += 1;
-test -= 1;
-console.log(test);
+let hoge = 1;
 
-let test2 = 2;
-test2 *= 3;
-test2 /= 2;
-
-console.log(test2);
+if(hoge === 2) {
+  console.log("piyo");
+} else if(hoge > 2) {
+  console.log("piyopiyo");
+} else {
+  console.log("huga");
+}
