@@ -1,5 +1,10 @@
-console.log(1 + 1);
-console.log(1 - 1);
-console.log(6 / 2);
-console.log(6 % 4);
-console.log(10 ** 3);
+let test = 0;
+++test;
+++test;
+
+console.log(test);
+
+let test2 = 11;
+--test2;
+
+console.log(test2);
