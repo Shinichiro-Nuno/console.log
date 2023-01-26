@@ -1,19 +1,7 @@
-console.log('Hello World');
+let hogehoge
+  console.log(hogehoge);
 
-let x = 15;
-console.log(x);
+hogehoge = null;
+  console.log(hogehoge);
 
-// console.log(y);
-
-let str = "こんにちは";
-console.log(str);
-
-const arr = ["apple", "lemon", "orange"];
-console.log(arr);
-
-const obj = {
-  a : 12,
-  b : 23,
-  c : 41
-};
-console.log(obj);
+  console.log(+'hoge');
