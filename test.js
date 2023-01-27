@@ -1,7 +1,13 @@
-let hogehoge
-  console.log(hogehoge);
+function count(add) {
+  add++
+  console.log(add);
+}
 
-hogehoge = null;
-  console.log(hogehoge);
+count(3);
 
-  console.log(+'hoge');
+const count2 = (add2) => {
+  add2++
+  console.log(add2);
+}
+
+count2(10);
